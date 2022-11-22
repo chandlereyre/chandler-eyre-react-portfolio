@@ -1,0 +1,37 @@
+.portfolio-detail-container {
+    width: 100vw;
+    .banner {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.9) inset;
+        img {
+            height: 100px;
+        }
+    }
+
+    .portfolio-detail-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            text-decoration: underline;
+        }
+
+        a {
+            padding: 15px;
+            color: white;
+            background-color: $teal;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.25s;
+            &:hover {
+                color: $dark-teal;
+                // background-color: $dark-teal;
+                box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+            }
+        }
+    }
+}

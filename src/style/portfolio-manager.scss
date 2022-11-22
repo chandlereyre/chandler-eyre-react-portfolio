@@ -1,0 +1,13 @@
+.portfolio-manager {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    .portfolio-manager-left {
+        background-color: $offwhite;
+    }
+
+    .portfolio-manager-right {
+        background-color: $charcoal;
+    }
+
+}

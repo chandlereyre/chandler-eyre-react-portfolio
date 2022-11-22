@@ -1,0 +1,33 @@
+.portfolio-sidebar-list-wrapper {
+    .portfolio-item-thumb {
+        padding: 21px;
+
+        .portfolio-thumb-img img {
+            width: 100%;
+        }
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $offwhite;
+        }
+        .actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 30px;
+            a {
+                color: $offwhite;
+                cursor: pointer;
+                scale: 200%;
+                transition: 0.25s ease-in-out;
+                &:hover {
+                    color: $warning;
+                }
+        }
+        
+        }
+    }
+    }
+        
+}

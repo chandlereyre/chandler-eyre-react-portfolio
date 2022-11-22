@@ -1,0 +1,22 @@
+.content-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh-84px);
+    .left-side {
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            transform: rotateY(180deg)
+        }
+    }
+    .right-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            width: 66%;
+        }
+    }
+}
